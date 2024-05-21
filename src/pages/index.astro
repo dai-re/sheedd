@@ -1,0 +1,61 @@
+---
+import "./_global.css";
+import MarkdownText from "./me.md";
+---
+
+<html lang="id-ID">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore the coding portfolio of Dai, showcasing projects in Astro and more."
+    />
+    <meta
+      name="keywords"
+      content="coding, portfolio, astro, web development, programming, projects"
+    />
+
+    <meta property="og:title" content="Dai's Coding Portfolio" />
+    <meta
+      property="og:description"
+      content="Explore the coding portfolio of Dai, showcasing projects in Astro and more."
+    />
+    <meta property="og:image" content="/og.webp" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://daire.eu.org" />
+
+    <meta name="twitter:card" content="/og.webp" />
+    <meta name="twitter:title" content="Dai's Coding Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Explore the coding portfolio of Dai, showcasing projects in Astro and more."
+    />
+    <meta name="twitter:image" content="/og.webp" />
+
+    <link rel="canonical" href="https://yourwebsite.com" />
+
+    <meta name="robots" content="index, follow" />
+
+    <title>Dai's Coding Portfolio</title>
+  </head>
+  <body>
+    <section>
+      <MarkdownText />
+    </section>
+  </body>
+</html>
+
+<style>
+  body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Courier New", Courier, monospace;
+  }
+  section {
+    width: 70%;
+  }
+</style>
